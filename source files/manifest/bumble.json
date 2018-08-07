@@ -1,0 +1,181 @@
+[{
+	"shadename": null,
+	"productSize": "450ML/15.2FLOZ",
+	"formattedPrice": "$33",
+	"sale": 10,
+    "brand": "bumble and bumble",
+	"skuId": "B29H50",
+	"productCode": "B29H500000",
+	"parent": {
+		"prodRgnName": "CURL NFR SHAMPOO",
+		"largeImage": ["/CURL-NFR-SHAMPOO.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "450ML/15.2FLOZ",
+	"formattedPrice": "$35",
+	"sale": 10,
+    "brand": "bumble and bumble",
+	"skuId": "B29J50",
+	"productCode": "B29J500000",
+	"parent": {
+		"prodRgnName": "NFR CURL CONDITIONER",
+		"largeImage": ["/CURL-NFR-SHAMPOO.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$30",
+	"sale": 10,
+    "brand": "bumble and bumble",
+	"skuId": "66208",
+	"productCode": "B26H010000",
+	"parent": {
+		"prodRgnName": "HOLIDAY FY16 THICKENING SET",
+		"largeImage": ["/HOLIDAY-FY16-THICKENING-SET.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$29",
+	"sale": 10,
+    "brand": "bumble and bumble",
+	"skuId": "76030",
+	"productCode": "B2F9Y60000",
+	"parent": {
+		"prodRgnName": "HOLIDAY FY17 THICKENING SET",
+		"largeImage": ["/HOLIDAY-FY16-THICKENING-SET.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$57",
+	"sale": 20,
+    "brand": "bumble and bumble",
+	"skuId": "B00850",
+	"productCode": "B008500000",
+	"parent": {
+		"prodRgnName": "NFR SEAWEED SHAMPOO LITER",
+		"largeImage": ["/NFR-SEAWEED-SHAMPOO-LITER.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$52",
+	"sale": 20,
+    "brand": "bumble and bumble",
+	"skuId": "B10E01",
+	"productCode": "B10E010000",
+	"parent": {
+		"prodRgnName": "NFR QUENCHING MASQUE LITER",
+		"largeImage": ["/NFR-QUENCHING-MASQUE-LITER.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "150ML/5OZ",
+	"formattedPrice": "$38",
+	"sale": 10,
+    "brand": "bumble and bumble",
+	"skuId": "B2CW50",
+	"productCode": "B2CW500000",
+	"parent": {
+		"prodRgnName": "NFR HIO CLEANSING OIL",
+		"largeImage": ["/NFR-HIO-CLEANSING-OIL.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "190ML/5.8OZ",
+	"formattedPrice": "$43",
+	"sale": 10,
+    "brand": "bumble and bumble",
+	"skuId": "B2F050",
+	"productCode": "B2F0500000",
+	"parent": {
+		"prodRgnName": "NFR HIO PRE-SHAMPOO MASQUE",
+		"largeImage": ["/NFR-HIO-PRE-SHAMPOO-MASQUE.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "60ML/2FLOZ",
+	"formattedPrice": "$9",
+	"sale": 3,
+    "brand": "bumble and bumble",
+	"skuId": "B01J010000",
+	"productCode": "B01J010000",
+	"parent": {
+		"prodRgnName": "TONIC LOTION TRAVEL",
+		"largeImage": ["/TONIC-LOTION-TRAVEL.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$39",
+	"sale": 10,
+    "brand": "bumble and bumble",
+	"skuId": "76032",
+	"productCode": "B2FCY61000",
+	"parent": {
+		"prodRgnName": "HOLIDAY FY17 FAVORITES TRAVEL SET",
+		"largeImage": ["/HOLIDAY-FY17-FAVORITES-TRAVEL-SET.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$85",
+	"sale": 25,
+    "brand": "bumble and bumble",
+	"skuId": "59322",
+	"productCode": "B206010000",
+	"parent": {
+		"prodRgnName": "THE ROUND BRUSH",
+		"largeImage": ["/THE-ROUND-BRUSH.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "56GM/2OZ",
+	"formattedPrice": "$27",
+	"sale": 7,
+    "brand": "bumble and bumble",
+	"skuId": "51461",
+	"productCode": "B1MW010000",
+	"parent": {
+		"prodRgnName": "PRET-A-POWDER",
+		"largeImage": ["/PRET-A-POWDER.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "60ML/2FLOZ",
+	"formattedPrice": "$10",
+	"sale": 3,
+    "brand": "bumble and bumble",
+	"skuId": "196",
+	"productCode": "B013010000",
+	"parent": {
+		"prodRgnName": "SUPER RICH CONDITIONER TRAVEL",
+		"largeImage": ["/SUPER-RICH-CONDITIONER-TRAVEL.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "2.6OZ",
+	"formattedPrice": "$16",
+	"sale": 3,
+    "brand": "bumble and bumble",
+	"skuId": "75518",
+	"productCode": "B2CP011000",
+	"parent": {
+		"prodRgnName": "STRONG FINISH HAIRSPRAY TRAVEL",
+		"largeImage": ["/STRONG-FINISH-HAIRSPRAY-TRAVEL.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$31",
+	"sale": 10,
+    "brand": "bumble and bumble",
+	"skuId": "70379",
+	"productCode": "B2C7011000",
+	"parent": {
+		"prodRgnName": "SURF FOAM SPRAY BLOW DRY TRAVEL SET",
+		"largeImage": ["/SURF-FOAM-SPRAY-BLOW-DRY-TRAVEL-SET.jpg"]
+	}
+}]

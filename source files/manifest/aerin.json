@@ -1,0 +1,73 @@
+[   {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$54",
+	"sale": 15,
+    "brand": "aerin",
+    "skuId": "66365",
+    "productCode": "R8L9010000",
+	"parent": {
+		"prodRgnName": "AMBER MUSK BODY CREAM",
+		"largeImage": ["https://www.esteelauder.com/media/export/cms/products/558x768/el_sku_R8L901_558x768_0.jpg"]
+	}
+},  {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$10",
+	"sale": 5,
+    "brand": "aerin",
+    "skuId": "77466",
+    "productCode": "RC2L800000",
+	"parent": {
+		"prodRgnName": "AERIN PWP Version 2",
+		"largeImage": ["https://www.esteelauder.com/media/export/cms/products/420x578/el_sku_RC2L80_420x578_0.jpg"]
+	}
+},  {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$100",
+	"sale": 25,
+    "brand": "aerin",
+    "skuId": "75824",
+    "productCode": "RT9X010000",
+	"parent": {
+		"prodRgnName": "AERIN Winter 16 Coffret Set",
+		"largeImage": ["https://www.esteelauder.com/media/export/cms/products/226x311/el_sku_RT9X01_226x311_0.jpg"]
+	}
+},  {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$42",
+	"sale": 15,
+    "brand": "aerin",
+    "skuId": "43863",
+    "productCode": "Y9XT010000",
+	"parent": {
+		"prodRgnName": "ROSE HAND AND BODY CREAM",
+		"largeImage": ["https://www.esteelauder.com/media/export/cms/products/226x311/el_sku_Y9XT01_226x311_0.jpg"]
+	}
+},  {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$--",
+	"sale": 5,
+    "brand": "aerin",
+    "skuId": "59647",
+    "productCode": "R472400000",
+	"parent": {
+		"prodRgnName": "AERIN FRAGRANCE MATCHBOX",
+		"largeImage": ["https://www.esteelauder.com/media/export/cms/products/420x578/el_sku_R47240_420x578_0.jpg"]
+	}
+},  {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$10",
+	"sale": 5,
+    "brand": "aerin",
+    "skuId": "77466",
+    "productCode": "RC2L800000",
+	"parent": {
+		"prodRgnName": "PWP VERSION 2",
+		"largeImage": ["https://www.esteelauder.com/media/export/cms/products/558x768/el_sku_RC2L80_558x768_0.jpg"]
+	}
+}]

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/wishlist/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/wishlist/images/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>Sale-a-bration</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+<!--    <link href="css/sanfrancisco-font.css" rel="stylesheet">-->
+    <link href="css/fonts.css" rel="stylesheet">
+<!--    <link href="css/main.min.css" rel="stylesheet">-->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <header>
+        <div class="clearfix">
+            <!-- iOS status bar -->
+            <!-- <img src="ios-status.png" class="img-responsive" /> -->
+            <div class="col-xs-3">
+                <div class="back" onclick="showBooths();">
+                    <span class="glyphicon glyphicon-menu-left"> </span> <h5>Brands</h5>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <h1 id="title">Loading Products</h1>
+            </div>
+            <div class="col-xs-3">
+                &nbsp;
+            </div>
+        </div>
+        
+    </header>
+    
+    <nav>
+        <ul>
+            <li onclick="filter('')">All</li>
+            <li onclick="filter('adf')">ADF</li>
+            <li onclick="filter('aerin')">Aerin</li>
+            <li onclick="filter('aveda')">Aveda</li>
+            <li onclick="filter('becca')">Becca</li>
+            <li onclick="filter('bobbi brown')">Bobbi Brown</li>
+            <li onclick="filter('bumble')">Bumble and bumble</li>
+            <li onclick="filter('clinique')">Clinique</li>
+            <li onclick="filter('darphin')">Darphin</li>
+            <li onclick="filter('estee')">Estée Lauder</li>
+            <li onclick="filter('jo malone')">Jo Malone</li>
+            <li onclick="filter('lab series')">Lab Series</li>
+            <li onclick="filter('la mer')">La Mer</li>
+            <li onclick="filter('m-a-c')">MAC</li>
+            <li onclick="filter('origins')">Origins</li>
+            <li onclick="filter('smashbox')">Smashbox</li>
+            <li onclick="filter('tom ford')">Tom Ford</li>
+        </ul>
+        <div class="row">
+            <div class="col-xs-6">
+                <h4 id="sortByBooth"><span class="glyphicon glyphicon-th-list"> </span> Sort: <span id="showWhichBooth">All</span></h4>
+            </div>
+            <div class="col-xs-6">
+                <div id="save-wishlist">
+                    <button onClick="saveWishlistToDb();"><span class="glyphicon glyphicon-save"> </span> Save Wishlist</button>
+                </div>
+                <h5 id="saved">Saved!</h5>
+            </div>
+        </div>
+        
+        
+    </nav>
+    
+    <section class="container">
+        
+        <aside id="loading-products">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em">
+                    <strong><span class="loading-progress">0%</span></strong>
+                </div>
+            </div>
+            <img src="images/ajax-loader.gif" />
+        </aside>
+        
+        <article id="booths">
+            <div class="row">
+                <h5 class="title-shopby">Shop by Brand</h5>
+            </div>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('adf');">
+                    <h2 class="booth-name">ADF</h2>
+<!--                    <div class="logo-container"><img src="images/logos/aramis.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('aerin');">
+                    <h2 class="booth-name">Aerin</h2>
+<!--                    <div class="logo-container"><img src="images/logos/aerin.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('aveda');">
+                    <h2 class="booth-name">Aveda</h2>
+<!--                    <div class="logo-container"><img src="images/logos/aveda.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('becca');">
+                    <h2 class="booth-name">Becca</h2>
+<!--                    <div class="logo-container"><img src="images/logos/bobbi.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('bobbi brown');">
+                    <h2 class="booth-name">Bobbi Brown</h2>
+<!--                    <div class="logo-container"><img src="images/logos/bobbi.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('bumble');">
+                    <h2 class="booth-name">Bumble and bumble</h2>
+<!--                    <div class="logo-container"><img src="images/logos/bumble.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('clinique');">
+                    <h2 class="booth-name">Clinique</h2>
+<!--                    <div class="logo-container"><img src="images/logos/clinique.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('darphin');">
+                    <h2 class="booth-name">Darphin</h2>
+<!--                    <div class="logo-container"><img src="images/logos/darphin.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('estee lauder');">
+                    <h2 class="booth-name">Estée Lauder</h2>
+<!--                    <div class="logo-container"><img src="images/logos/estee.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('frederic malle');">
+                    <h2 class="booth-name">Frederic Malle</h2>
+<!--                    <div class="logo-container"><img src="images/logos/estee.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('jo malone');">
+                    <h2 class="booth-name">Jo Malone</h2>
+<!--                    <div class="logo-container"><img src="images/logos/jomalone.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('lab series');">
+                    <h2 class="booth-name">Lab Series</h2>
+<!--                    <div class="logo-container"><img src="images/logos/labseries.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>            
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('la mer');">
+                    <h2 class="booth-name">La Mer</h2>
+<!--                    <div class="logo-container"><img src="images/logos/lamer.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('m-a-c');">
+                    <h2 class="booth-name">M·A·C</h2>
+<!--                    <div class="logo-container"><img src="images/logos/mac.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('origins');">
+                    <h2 class="booth-name">Origins</h2>
+<!--                    <div class="logo-container"><img src="images/logos/origins.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('smashbox');">
+                    <h2 class="booth-name">Smashbox</h2>
+<!--                    <div class="logo-container"><img src="images/logos/smashbox.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            <aside class="row">
+                <button class="select-booth clearfix" onclick="showProducts('tom ford');">
+                    <h2 class="booth-name">Tom Ford Beauty</h2>
+<!--                    <div class="logo-container"><img src="images/logos/tomford.png" class="img-responsive"/></div>-->
+<!--                    <span class="glyphicon glyphicon-menu-right"></span>-->
+                </button>
+            </aside>
+            
+        </article>
+        
+        <article id="all-products">
+                        
+            <ul class="list"></ul>
+
+        </article>
+        
+        <article id="wishlist">
+            
+            <div id="wishlist-empty">Your wishlist is empty.</div>
+            <div id="wishlist-brand">No products from this brand in your wishlist.</div>
+            <!--<div class="row" id="save-wishlist">
+                <button onClick="saveWishlistToDb();"><span class="glyphicon glyphicon-save"> </span> Save Wishlist</button>
+            </div>-->
+            <ul class="listPS"></ul>
+            <div id="wishlist-total">Grand total: $<span id="subtotal"></span></div>
+        </article>
+    
+    </section>
+    
+    <div id="array" style="background: #000;">
+    
+    </div>
+
+    <div class="modal fade" id="welcome" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Welcome to <br />Sale-a-bration 2017!</h4>
+                </div>
+                <div class="modal-body">
+                    
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span class="glyphicon glyphicon-heart"> </span>&nbsp; Create your wishlist 
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                              While supplies last.
+                              <button class="pull-right" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">Next</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="glyphicon glyphicon-th-list"> </span>&nbsp; Sort by brand 
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                              Save time at each booth!
+                              <button href="#collapseThree" data-toggle="collapse" data-parent="#accordion" class="pull-right">Next</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span class="glyphicon glyphicon-star"> </span>&nbsp; Review us!
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                              Let us know what you think! Leave a review in the App Store / Play Store.
+                              <button class="close-intro pull-right" data-dismiss="modal" aria-label="Close">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!--<h3>New Features</h3>
+                    <p>This year, we've streamlined the way you and your friends shop. To begin, start your wishlist using this app before you arrive or while you wait in line. <strong>Subject to product availability.</strong></p>
+                    <p>See a product that's not in the app? Want to add a personal donation? Use <strong>WIPs / Donations</strong> to add custom amounts to your grand total!</p>
+                    <h3>Let us know how we did</h3>
+                    <p>Help us improve the experience next year! Be sure to <strong>leave a review</strong> in the App Store / Google Play Store.</p>-->
+                    
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
+    <footer>
+<!--        <button id="products" onClick="destroyDb();"><span class="glyphicon glyphicon-ban-circle"> </span><br />Delete (dev)</button>-->
+        <div class="col-xs-6">
+            <button id="products"><span class="glyphicon glyphicon-home"> </span></button>
+        </div>
+        <div class="col-xs-6">
+            <button id="wishlist"><span class="glyphicon glyphicon-heart"> </span><span class="badge">0</span></button>
+        </div>
+        
+        
+    </footer>
+    
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/list.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/createjs-2015.11.26.min.js"></script>
+    <script src="js/preloadjs-0.6.2.min.js"></script>
+    
+    <script src="js/fastclick.js"></script>
+    
+<!--    <script src="js/main.min.js"></script>-->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

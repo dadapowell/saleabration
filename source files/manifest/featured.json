@@ -1,0 +1,157 @@
+[	{
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$100",
+	"sale": 25,
+    "brand": "aerin",
+	"skuId": "75824",
+	"productCode": "RT9X010000",
+	"parent": {
+		"prodRgnName": "AERIN - Winter 16 Coffret Set",
+		"largeImageDefault": ["https://www.esteelauder.com/media/export/cms/products/226x311/el_sku_RT9X01_226x311_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$26",
+	"sale": 8,
+    "brand": "aveda",
+	"skuId": "75415",
+	"productCode": "AL7P010000",
+	"parent": {
+		"prodRgnName": "Aveda - BCA HAND RELIEF CREME",
+		"largeImageDefault": ["https://www.aveda.com/media/images/products/330x558/av_sku_AL7P01_75415_330x558_0.jpg"]
+	}
+}, {
+	"shadename": "Naked",
+	"productSize": null,
+	"formattedPrice": "$44",
+	"sale": 10,
+    "brand": "bobbi brown",
+	"skuId": "SKU74814",
+	"productCode": " ",
+	"parent": {
+		"prodRgnName": "Bobbi Brown - BRIGHTENING BRICK - NAKED",
+		"largeImageDefault": ["https://www.bobbibrowncosmetics.com/media/export/cms/products/415x415/bb_prod_EFF9_415x415_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$18",
+	"sale": 5,
+    "brand": "clinique",
+	"skuId": "70088",
+	"productCode": "ZMWA070000",
+	"parent": {
+		"prodRgnName": "Clinique - LIP POP-PASSION POP",
+		"largeImageDefault": ["http://www.clinique.com/media/export/cms/products/600x600/clq_ZEK215_600x600.png"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$135",
+	"sale": 45,
+    "brand": "darphin",
+	"skuId": "75379",
+	"productCode": "D825Y60000",
+	"parent": {
+		"prodRgnName": "Darphin - EXQUISAGE HOLID SET FY17",
+		"largeImageDefault": ["http://www.darphin.com/images/products/da_D825Y6_200.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$40",
+	"sale": 10,
+    "brand": "lab series",
+	"skuId": "75032",
+	"productCode": "5M07011000",
+	"parent": {
+		"prodRgnName": "Lab Series - EVERYWHRE ESSEN TRVL SET",
+		"largeImageDefault": ["https://www.labseries.com/media/images/products/180x380/lab_sku_5M0701_180x380_0.jpg"]
+	}
+},{
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$--",
+	"sale": 10,
+    "brand": "m-a-c",
+	"skuId": "SKU75235",
+	"productCode": "S2H0Y60000",
+	"parent": {
+		"prodRgnName": "MAC - NUTCRACKER SWEET NUDE LI",
+		"largeImageDefault": ["https://www.maccosmetics.com/media/export/cms/products/280x320/mac_sku_S2H0Y6_280x320_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$40",
+	"sale": 40,
+    "brand": "adf",
+	"skuId": "5JN2010000",
+	"productCode": "5JN2010000",
+	"parent": {
+		"prodRgnName": "TORY BURCH - LR BATH & SHOWER GEL",
+		"largeImageDefault": ["https://seeklogo.com/images/T/tory-burch-logo-EFAE537663-seeklogo.com.png"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "450ML/15.2FLOZ",
+	"formattedPrice": "$35",
+	"sale": 10,
+    "brand": "bumble and bumble",
+	"skuId": "B29J50",
+	"productCode": "B29J500000",
+	"parent": {
+		"prodRgnName": "BB - NFR CURL CONDITIONER",
+		"largeImage": ["http://ota.esteeonline.com/wishlist/images/bumble/CURL-NFR-SHAMPOO.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$20",
+	"sale": 5,
+    "brand": "origins",
+	"skuId": "72009",
+	"productCode": "0NP8010000",
+	"parent": {
+		"prodRgnName": "Origins - SKIN STARTERS",
+		"largeImage": ["https://www.origins.com/media/export/cms/products/500x625/origins_sku_0NP801_500x625_0.png"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$29",
+	"sale": 8.70,
+    "brand": "smashbox",
+	"skuId": "35699",
+	"productCode": "C574010002",
+	"parent": {
+		"prodRgnName": "Smashbox - FOUND. BRUSH #13",
+		"largeImage": ["https://www.smashbox.com/media/images/products/875x773/sbx_sku_35699_875x773_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": null,
+	"formattedPrice": "$145",
+	"sale": 45,
+    "brand": "tom ford",
+	"skuId": "T4HF011001",
+	"productCode": "T4HF011001",
+	"parent": {
+		"prodRgnName": "Tom Ford - NOIR HOLIDAY 2016 SET",
+		"largeImage": ["http://ota.esteeonline.com/wishlist/images/tomford/tomford.png"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "200ml",
+	"formattedPrice": "$225",
+	"sale": 65,
+    "brand": "frederic malle",
+	"skuId": "CARNALFLOWER",
+	"productCode": "CARNALFLOWER",
+	"parent": {
+		"prodRgnName": "Frédéric Malle - CARNAL FLOWER BODY BUTTER 200ML",
+		"largeImage": ["https://www.fredericmalle.com/media/catalog/product/cache/1/image/224x280/e6c4c572e1a98b3160451a112bad7b9b/b/o/bodybutter2_3.jpg"]
+	}
+}]

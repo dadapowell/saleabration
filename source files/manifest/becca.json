@@ -1,0 +1,177 @@
+[{
+	"shadename": "Medium/Dark",
+	"productSize": null,
+	"formattedPrice": "$25",
+	"sale": 10,
+    "brand": "becca",
+    "skuId": "B-PROBRW002",
+	"parent": {
+		"prodRgnName": "Shadow and Light Brow Contour Mousse",
+		"largeImage": ["/B-PROBRW002.jpg"]
+	}
+}, {
+    "shadename": "Medium/Cafe",
+	"productSize": null,
+	"formattedPrice": "$25",
+	"sale": 10,
+    "brand": "becca",
+    "skuId": "B-PROBRW003",
+	"parent": {
+		"prodRgnName": "Shadow and Light Brow Contour Mousse",
+		"largeImage": ["/B-PROBRW003.jpg"]
+    }
+}, {
+    "shadename": "Raspberry/Opal",
+	"productSize": null,
+	"formattedPrice": "$24",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROBTLS003",
+	"parent": {
+		"prodRgnName": "Beach Tint Lip Shimmer Soufflé",
+		"largeImage": ["/B-PROBTLS003.jpg"]
+    }
+},  {
+    "shadename": "Champagne Pop/Hyacinth",
+	"productSize": null,
+	"formattedPrice": "$38",
+	"sale": 12,
+    "brand": "becca",
+    "skuId": "B-PROCS02",
+	"parent": {
+		"prodRgnName": "Shimmering Skin Perfector Mineral Blush Duo Champagne Splits",
+		"largeImage": ["/B-PROCS02.jpg"]
+    }
+},  {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$40",
+	"sale": 12,
+    "brand": "becca",
+    "skuId": "B-PROPAL021",
+	"parent": {
+		"prodRgnName": "Ombre Nudes Eye Palette",
+		"largeImage": ["/B-PROPAL021.jpg"]
+    }
+},  {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$38",
+	"sale": 12,
+    "brand": "becca",
+    "skuId": "B-PROPAL023",
+	"parent": {
+		"prodRgnName": "Lowlight/Highlight Perfecting Palette Pressed",
+		"largeImage": ["/B-PROPAL023.jpg"]
+    }
+},  {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$40",
+	"sale": 12,
+    "brand": "becca",
+    "skuId": "B-PROPAL024",
+	"parent": {
+		"prodRgnName": "Ombre Rouge Eye Palette",
+		"largeImage": ["/B-PROPAL024.jpg"]
+    }
+},  {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$34",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROSSPPB01",
+	"parent": {
+		"prodRgnName": "Luminous Blush Snapdragon",
+		"largeImage": ["/B-PROSSPPB01.jpg"]
+    }
+},  {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$34",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROSSPPB02",
+	"parent": {
+		"prodRgnName": "Luminous Blush Camelia",
+		"largeImage": ["/B-PROSSPPB02.jpg"]
+    }
+},  {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$34",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROSSPPB04",
+	"parent": {
+		"prodRgnName": "Luminous Blush Foxglove",
+		"largeImage": ["/B-PROSSPPB04.jpg"]
+    }
+},  {
+    "shadename": "Champagne Pop",
+	"productSize": null,
+	"formattedPrice": "$28",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROSSPSL01",
+	"parent": {
+		"prodRgnName": "Shimmering Skin Perfector® Slimlight",
+		"largeImage": ["/B-PROSSPSL01.jpg"]
+    }
+},  {
+    "shadename": "Topaz",
+	"productSize": null,
+	"formattedPrice": "$28",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROSSPSL02",
+	"parent": {
+		"prodRgnName": "Shimmering Skin Perfector® Slimlight",
+		"largeImage": ["/B-PROSSPSL02.jpg"]
+    }
+},  {
+    "shadename": "Pearl",
+	"productSize": null,
+	"formattedPrice": "$28",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROSSPSL03",
+	"parent": {
+		"prodRgnName": "Shimmering Skin Perfector® Slimlight",
+		"largeImage": ["/B-PROSSPSL03.jpg"]
+    }
+},  {
+    "shadename": "Pearl",
+	"productSize": null,
+	"formattedPrice": "$41",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROSSP060",
+	"parent": {
+		"prodRgnName": "Shimmering Skin Perfector",
+		"largeImage": ["/B-PROSSP060.jpg"]
+    }
+},  {
+    "shadename": "Prosecco Pop",
+	"productSize": null,
+	"formattedPrice": "$38",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROSSPR012",
+	"parent": {
+		"prodRgnName": "Shimmering Skin Perfector Poured",
+		"largeImage": ["/B-PROSSPR012.jpg"]
+    }
+},  {
+    "shadename": "Topaz",
+	"productSize": null,
+	"formattedPrice": "$38",
+	"sale": 7,
+    "brand": "becca",
+    "skuId": "B-PROSSPR005",
+	"parent": {
+		"prodRgnName": "Shimmering Skin Perfector Poured",
+		"largeImage": ["/B-PROSSPR005.jpg"]
+    }
+}]

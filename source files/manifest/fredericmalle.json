@@ -1,0 +1,73 @@
+[{
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$185",
+	"sale": 55,
+    "brand": "fredericmalle",
+    "skuId": "N01CC200",
+    "productCode": "",
+	"parent": {
+		"prodRgnName": "MUSC RAVAGEUR BODY BUTTER 200ML",
+		"largeImage": ["/fm.png"]
+    }
+}, {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$190",
+	"sale": 55,
+    "brand": "fredericmalle",
+    "skuId": "N08CC200",
+    "productCode": "",
+	"parent": {
+		"prodRgnName": "IRIS POUDRE BODY BUTTER 200ML",
+		"largeImage": ["/fm.png"]
+    }
+}, {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$215",
+	"sale": 65,
+    "brand": "fredericmalle",
+    "skuId": "N12CC200",
+    "productCode": "",
+	"parent": {
+		"prodRgnName": "UNE ROSE BODY BUTTER 200ML",
+		"largeImage": ["/fm.png"]
+    }
+}, {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$225",
+	"sale": 65,
+    "brand": "fredericmalle",
+    "skuId": "N14CC200",
+    "productCode": "",
+	"parent": {
+		"prodRgnName": "CARNAL FLOWER BODY BUTTER 200ML",
+		"largeImage": ["/fm.png"]
+    }
+}, {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$215",
+	"sale": 65,
+    "brand": "fredericmalle",
+    "skuId": "N18CC200",
+    "productCode": "",
+	"parent": {
+		"prodRgnName": "PORTRAIT OF A LADY BODY BUTTER 200ML",
+		"largeImage": ["/fm.png"]
+    }
+}, {
+    "shadename": null,
+	"productSize": null,
+	"formattedPrice": "$190",
+	"sale": 60,
+    "brand": "fredericmalle",
+    "skuId": "N19CC200",
+    "productCode": "",
+	"parent": {
+		"prodRgnName": "DRIES VAN NOTEN BODY BUTTER 200ML",
+		"largeImage": ["/fm.png"]
+    }
+}]

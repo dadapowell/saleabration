@@ -1,0 +1,21 @@
+{ 
+    "responseJSON": [{
+        "shadename": null,
+        "productSize": "1.7 fl. oz.",
+        "formattedPrice": "$300",
+        "sale": 0,
+        "parent": {
+            "prodRgnName": "RODIN bis",
+            "largeImage": ["/bis_large.png"]
+        }
+    },{
+        "shadename": null,
+        "productSize": "1 fl. oz.",
+        "formattedPrice": "$240",
+        "sale": 0,
+        "parent": {
+            "prodRgnName": "RODIN Perfume",
+            "largeImage": ["/perfume_large.png"]
+        }
+    }]
+}

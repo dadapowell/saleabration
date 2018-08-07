@@ -1,0 +1,34 @@
+[{
+	"shadename": " ",
+	"productSize": null,
+	"formattedPrice": "$26",
+	"sale": 8,
+    "brand": "aveda",
+    "skuId": "AL7P01",
+	"parent": {
+		"prodRgnName": "BCA HAND RELIEF BEAUT",
+		"largeImage": ["http://ota.esteeonline.com/wishlist/images/aveda/aveda.png"]
+	}
+}, {
+	"shadename": " ",
+	"productSize": null,
+	"formattedPrice": "$59",
+	"sale": 18,
+    "brand": "aveda",
+    "skuId": "A3X701",
+	"parent": {
+		"prodRgnName": "GS FACE CREME",
+		"largeImage": ["http://ota.esteeonline.com/wishlist/images/aveda/aveda.png"]
+	}
+}, {
+	"shadename": " ",
+	"productSize": null,
+	"formattedPrice": "$24",
+	"sale": 8,
+    "brand": "aveda",
+    "skuId": "AG2W01",
+	"parent": {
+		"prodRgnName": "SHAMPURE HAND RELIEF",
+		"largeImage": ["http://ota.esteeonline.com/wishlist/images/aveda/aveda.png"]
+	}
+}]

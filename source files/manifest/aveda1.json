@@ -1,0 +1,136 @@
+[{
+	"shadename": null,
+	"productSize": "9.5 fl. oz. / 250 ml",
+	"formattedPrice": "$29",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "Damage Remedy™ Restructuring Shampoo",
+		"largeImage": ["/media/images/products/355x600/av_sku_AF2P01_50300_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "33.8 fl. oz. / 1 litre",
+	"formattedPrice": "$71",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "Be Curly™ Co-Wash",
+		"largeImage": ["/media/images/products/355x600/av_sku_AJ2101_63727_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "150 ml",
+	"formattedPrice": "$36",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "Damage Remedy™ Intensive Restructuring Treatment",
+		"largeImage": ["/media/images/products/355x600/av_sku_AF2Y01_50304_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "500 ml",
+	"formattedPrice": "$91",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "Damage Remedy™ Intensive Restructuring Treatment",
+		"largeImage": ["/media/images/products/355x600/av_sku_AF2Y01_50304_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "250 ml",
+	"formattedPrice": "$29",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "dry remedy™ moisturizing shampoo",
+		"largeImage": ["/media/images/products/355x600/av_sku_AF2Y01_50304_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "6.7 fl. oz. / 200 ml",
+	"formattedPrice": "$25",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "Be Curly™ Curl Enhancer",
+		"largeImage": ["/media/images/products/355x600/av_sku_A0RF01_33213_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "8.5 fl. oz. / 250 ml",
+	"formattedPrice": "$21",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "Smooth Infusion™ Shampoo",
+		"largeImage": ["/media/images/products/355x600/av_sku_A3JX01_33991_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "3.4 fl. oz. / 100 ml",
+	"formattedPrice": "$25",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "Smooth Infusion™ Style-Prep Smoother™",
+		"largeImage": ["/media/images/products/355x600/av_sku_A40901_34123_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "8.5 fl. oz. / 250 ml",
+	"formattedPrice": "$13.50",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "Shampure™ Conditioner",
+		"largeImage": ["/media/images/products/355x600/av_sku_A1TF01_33488_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "3.4 fl. oz. / 100 ml",
+	"formattedPrice": "$25",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "pure abundance™ style-prep™",
+		"largeImage": ["/media/images/products/355x600/av_sku_AAF301_43477_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "8.5 fl. oz. / 250 ml",
+	"formattedPrice": "$21",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "confixor™ liquid gel",
+		"largeImage": ["/media/images/products/355x600/av_sku_A54K01_34263_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "16.9 fl. oz. / 500 ml",
+	"formattedPrice": "$68",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "smooth infusion™ smoothing masque",
+		"largeImage": ["/media/images/products/355x600/av_sku_AHJ101_61987_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "8.5 fl. oz. / 250 ml",
+	"formattedPrice": "$26",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "smooth infusion™ nourishing styling creme",
+		"largeImage": ["/media/images/products/355x600/av_sku_AHGT01_64323_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "6.7 fl. oz.",
+	"formattedPrice": "$25",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "be curly™ curl controller",
+		"largeImage": ["/media/images/products/355x600/av_sku_AART01_46928_355x600_0.jpg"]
+	}
+}, {
+	"shadename": null,
+	"productSize": "16.9 fl. oz. / 500 ml",
+	"formattedPrice": "$68",
+	"sale": 0,
+	"parent": {
+		"prodRgnName": "Be Curly™ Intensive Detangling Masque",
+		"largeImage": ["/media/images/products/355x600/av_sku_AJ2201_63728_355x600_0.jpg"]
+	}
+}]

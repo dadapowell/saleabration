@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'Bauer Bodoni Roman';
+	font-weight: normal;
+	font-style: normal;
+	src: url(fonts/bauer_bodoni_roman.eot) format('embedded-opentype'),
+		url(fonts/bauer_bodoni_roman.woff2) format('woff2'),
+		url(fonts/bauer_bodoni_roman.woff) format('woff'),
+		url(fonts/bauer_bodoni_roman.ttf) format('truetype');
+} 
+@font-face {
+	font-family: 'Bauer Bodoni Italic';
+	font-weight: normal;
+	font-style: normal;
+	src: url(fonts/bauer_bodoni_italic.eot) format('embedded-opentype'),
+	url(fonts/bauer_bodoni_italic.woff2) format('woff2'),
+	url(fonts/bauer_bodoni_italic.woff) format('woff'),
+	url(fonts/bauer_bodoni_italic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Bauer Bodoni Bold';
+	font-weight: normal;
+	font-style: normal;
+	src: url(fonts/bauer_bodoni_bold.eot) format('embedded-opentype'),
+		url(fonts/bauer_bodoni_bold.woff2) format('woff2'),
+		url(fonts/bauer_bodoni_bold.woff) format('woff'),
+		url(fonts/bauer_bodoni_bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'bauerbodni_roman';
+    src: url('fonts/bauerb__-webfont.woff2') format('woff2'),
+         url('fonts/bauerb__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family: 'Century Gothic';
+	font-weight: normal;
+	font-style: normal;
+	src: url(fonts/century_gothic.eot) format('embedded-opentype'),
+	url(fonts/century_gothic.woff2) format('woff2'),
+	url(fonts/century_gothic.woff) format('woff'),
+	url(fonts/century_gothic.ttf) format('truetype');
+} 
